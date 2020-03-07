@@ -1,55 +1,348 @@
 ---
 layout: index-layout
-subject: My Email Templates
+subject: MicroCenter Transactional Mock Email
 ---
 
-<spacer size="16"></spacer>
-
 <container>
-
-  <spacer size="24"></spacer>
-  
   <row>
-    <columns small="12">
-
-    <p class="lead">Hi there!</p>
-    <p style="color: #484848; line-height: 1.5;">Thanks for downloading <a href="http://foundation.zurb.com/emails/docs/">Foundation for Emails!</a> Your days of coding up painful HTML emails are officially over. You’ll soon be cranking out some slick, responsive emails in no time! To help get you up and running, we've put together 11 templates for the most common email use cases including newsletters, transactional emails, and marketing blasts. Feel free to customize them to your hearts content.</p>
-
-    <spacer size="16"></spacer>
-
-    <center>
-      <menu class="vertical">
-        <item href="{{root}}basic.html" target="_blank">Basic Template</item>
-        <item href="{{root}}drip.html" target="_blank">Drip Template</item>
-        <item href="{{root}}hero.html" target="_blank">Hero Template</item>
-        <item href="{{root}}marketing.html" target="_blank">Marketing Template</item>
-        <item href="{{root}}newsletter.html" target="_blank">Newsletter Template</item>
-        <item href="{{root}}newsletter-2.html" target="_blank">Newsletter 2 Template</item>
-        <item href="{{root}}order.html" target="_blank">Order Template</item>
-        <item href="{{root}}password.html" target="_blank">Password Template</item>
-        <item href="{{root}}sidebar.html" target="_blank">Sidebar Template</item>
-        <item href="{{root}}sidebar-hero.html" target="_blank">Sidebar Hero Template</item>
-        <item href="{{root}}welcome.html" target="_blank">Welcome Template</item>
-      </menu>
-    </center>
-
-    <spacer size="16"></spacer>
-
-    <p>Happy Coding,</p>
-    <p>The Foundation Team</p>
-
-
-    <spacer size="16"></spacer>
-
+    <columns class="store-info">
+        <row>
+            <hr>
+            <columns small="5" large="4">
+            </columns>
+            <columns small="7" large="8">
+                <p>New York City</p>
+                <p>Department of Consumer Affairs</p>
+                <p>Electronics Store Lic. No. xxxxxxx</p>
+                <p>Electronics Repair Lic. No. xxxxxxx</p>
+                <p>Second Hand Dealer Lic. No. xxxxxxx</p>
+            </columns>
+        </row>
+        <row>
+            <columns small="5" large="4">
+                <p class="text-right">Your store >>&nbsp;</p>
+            </columns>
+            <columns small="7" large="8">
+                <p>Micro Center Brooklyn</p>
+                <p>850 Third Avenue</p>
+                <p><a href="#" alt="#">Brooklyn , NY 11232</a></p>
+                <p>General Manager John Doe</p>
+                <p>Text or Call (123) 456 -7890</p>
+                <p><a href="#" alt="#">www.microcenter.com</a></p>
+            </columns>
+        </row>
+        <row>
+            <columns small="5" large="4">
+                <p class="text-right">Reference Number >>&nbsp;</p>
+                <p class="text-right">Transaction Date >>&nbsp;</p>
+                <p class="text-right">Customer >>&nbsp;</p>
+                <p class="text-right">CSR >>&nbsp;</p>
+            </columns>
+            <columns small="7" large="8">
+                <p>000000000</p>
+                <p>MM/DD/YYYY</p>
+                <p>IMRAN HUHN</p>
+                <p>Jane D</p>
+            </columns>
+        </row>
     </columns>
-  </row>
+</row>
+<row>
+    <columns class="sale-info" valign="middle">
+        <row>
+            <hr>
+            <columns>
+              <h5>
+                Your Sale Information
+              </h5>
+            </columns>
+        </row>
+        <row class="table-header">
+            <columns small="2" large="2" class="sku">
+                <p class="text-center">
+                    SKU
+                </p>
+            </columns>
+            <columns small="7" large="5" class="description">
+                <p class="text-center">
+                    Description
+                </p>
+            </columns>
+            <columns large="1" class="quantity show-for-large">
+                <p class="text-center">
+                    Quantity
+                </p>
+            </columns>
+            <columns large="2" class="price show-for-large">
+                <p class="text-center">
+                    Price Per
+                </p>
+            </columns>
+            <columns small="3" large="2" class="total">
+                <p class="text-center">
+                    Total Price
+                </p>
+            </columns>
+        </row>
+        <!-- /////////////////////////////////// -->
+        <row class="table-body">
+            <columns small="2" large="2" class="sku">
+                <p class="text-left">
+                    000000
+                </p>
+            </columns>
+            <columns small="7" large="5" class="description">
+                <p class="text-left">
+                    MSI X470 GAMING PLUS
+                </p>
+                <p class="text-left">
+                    S/N: 111-2B22-333C4567890987
+                </p>
+            </columns>
+            <columns large="1" class="quantity show-for-large">
+                <p class="text-right">
+                    1<br>
+                </p>
+                <p>
+                    &nbsp;
+                </p>
+            </columns>
+            <columns large="2" class="price show-for-large">
+                <p class="text-right">
+                    86.99
+                </p>
+                <p>
+                    &nbsp;
+                </p>
+            </columns>
+            <columns small="3" large="2" class="total">
+                <p class="text-right">
+                    86.99
+                </p>
+            </columns>
+        </row>
+        <!-- /////////////////////////////////// -->
+        <row class="table-body">
+            <columns small="2" large="2" class="sku">
+                <p class="text-left">
+                    &nbsp;
+                </p>
+            </columns>
+            <columns small="7" large="5" class="description">
+                <p class="text-left">
+                    Price Protection
+                </p>
+            </columns>
+            <columns large="1" class="quantity show-for-large">
+                <p class="text-right">
+                    &nbsp;
+                </p>
+            </columns>
+            <columns large="2" class="price show-for-large">
+                <p class="text-right">
+                    &nbsp;
+                </p>
+            </columns>
+            <columns small="3" large="2" class="total">
+                <p class="text-right">
+                    &nbsp;
+                </p>
+            </columns>
+        </row>
+        <!-- /////////////////////////////////// -->
+        <row class="table-body">
+            <columns small="2" large="2" class="sku">
+                <p class="text-left">
+                    999999
+                </p>
+            </columns>
+            <columns small="7" large="5" class="description">
+                <p class="text-left">
+                    ARCSLVR SLVR5 HS THERMAL CMP
+                </p>
+            </columns>
+            <columns large="1" class="quantity show-for-large">
+                <p class="text-right">
+                    1
+                </p>
+            </columns>
+            <columns large="2" class="price show-for-large">
+                <p class="text-right">
+                    7.99
+                </p>
+            </columns>
+            <columns small="3" large="2" class="total">
+                <p class="text-right">
+                    7.99
+                </p>
+            </columns>
+        </row>
+        <!-- /////////////////////////////////// -->
+        <row class="table-body">
+            <columns small="2" large="2" class="sku">
+                <p class="text-left">
+                    555555
+                </p>
+            </columns>
+            <columns small="7" large="5" class="description">
+                <p class="text-left">
+                    AMD TRYZEN 7 2700X WRAITHP
+                </p>
+                <p class="text-left">
+                    S/N: 1AB2345C67890
+                </p>
+            </columns>
+            <columns large="1" class="quantity show-for-large">
+                <p class="text-right">
+                    1
+                </p>
+                <p>
+                    &nbsp;
+                </p>
+            </columns>
+            <columns large="2" class="price show-for-large">
+                <p class="text-right">
+                    249.99
+                </p>
+                <p>
+                    &nbsp;
+                </p>
+            </columns>
+            <columns small="3" large="2" class="total">
+                <p class="text-right">
+                    249.99
+                </p>
+            </columns>
+        </row>
+        <!-- /////////////////////////////////// -->
+        <row class="payment">
+          <columns small="9" large="7" class="total-label">
+            <p class="text-right">
+              Subtotal >>
+            </p>
+            <p class="text-right">
+              Tax >>
+            </p>
+            <p class="text-right">
+              Sale TOTAL >>
+            </p>
+            <p class="text-right">
+              Credit Card (xxxx-xxxx-xxxx-xxxx) >>
+            </p>
+          </columns>
+          <columns small="3" large="5" class="total-costs">
+            <p class="text-right">
+              $344.97
+            </p>
+            <p class="text-right tax">
+              $30.63
+            </p>
+            <p class="text-right sales-total">
+              $375.60
+            </p>
+            <p class="text-right card-pay">
+              $375.60
+            </p>
+          </columns>
+        </row>
+    </columns>
+</row>
+<row>
+  <columns>
+    <row class="disclaimer">
+      <columns>
+        <h5>
+          Disclaimer Information
+        </h5>
+      </columns>
+    </row>   
+    <row class="support">
+      <columns>
+        <h5>
+          Product Support
+        </h5>
+        <hr>
+      </columns>
+    </row>
+    <row class="support-info">
+      <columns>
+        <p>
+          <strong>
+            503573/ ARCSLVR SLVR5 HD THERMAL CMP 3.5
+          </strong>
+          <br>
+            Vendor Support:
+          <br>
+            &nbsp;&nbsp;Main Website: <a href="#" alt="#">http://www.arcticsilver.com/index.html#</a>
+          <br>
+            &nbsp;&nbsp;Support Website: <a href="#" alt="#">http://www.arcticsilver.com/support.htm</a>
+          <br>
+          <a>
+            <span>
+              Customer Care Information: Articles, FAQs and more
+            </span>
+          </a>
+        </p>
+      </columns>
+    </row>
+    <row class="support-info">
+      <columns>
+        <p>
+          <strong>
+            741173/ AMD AMD RYZEN 7 2700X WRAITHP
+          </strong>
+          <br>
+            Return Policy: May be returned within 15 days of purchase
+          <br> 
+            Vendor Warranty:
+          <br>
+            &nbsp;&nbsp;Parts: 3 Years
+          <br>
+            &nbsp;&nbsp;Labor: 3 Years
+          <br>
+            Vendor Support:
+          <br>
+            &nbsp;&nbsp;Main Website: <a href="#" alt="#">http://www.amd.com/us/Pages/AMDHomePage.aspx</a>
+          <br>
+            &nbsp;&nbsp;Support Website: <a href="#" alt="#">http://support.amd.com/us/Pages/AMDSupportHub.aspx</a>
+          <br>
+          <a>
+            <span>
+              Customer Care Information: Articles, FAQs and more
+            </span>
+          </a>
+        </p>
+      </columns>
+    </row>
+    <row class="support-info">
+      <columns>
+        <p>
+          <strong>
+            765164/ MSI X470 GAMING PLUS
+          </strong>
+          <br>
+          Return Policy: May be returned within 15 days of purchase
+          <br>
+          Vendor Warranty:
+          <br>
+            &nbsp;&nbsp;Parts: 3 Years
+          <br>
+            &nbsp;&nbsp;Labor: 3 Years
+          <br>
+            Vendor Support:
+          <br>
+            &nbsp;&nbsp;Main Website: <a href="#" alt="#">http://us.msi.com/</a>
+          <br>
+            &nbsp;&nbsp;Support Website: <a href="#" alt="#">http://us.msi.com/index.php?func=service</a>
+          <br>
+          <a>
+            <span>
+              Customer Care Information: Articles, FAQs and more
+            </span>
+          </a>
+        </p>
+      </columns>
+    </row>
+  </columns>
+</row>
 </container>
-
-<spacer size="16"></spacer>
-
-<center>
-  <small>Keep on keepin' on. &lt;3 <a style="color: #cacaca; text-decoration: underline;" href="http://zurb.com/">ZURB</a> </small>
-</center>
-
-<spacer size="16"></spacer>
-
