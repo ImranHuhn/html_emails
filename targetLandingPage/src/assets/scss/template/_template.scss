@@ -1,59 +1,755 @@
-// These are the styles to make some of the templates look extra nice.
-// Feel free to remove these styles for production!
-
-// Body Styles 
-body,
-html, 
-.body {
-  background: #f3f3f3 !important;
+table.body .columns, table.body .column {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+//////////////////////////////////////////
+.header-logo {
+    padding-bottom: 0px !important;
+    .columns {
+        padding-bottom: 0px !important;
+        a {
+            center {
+                padding-top: 16px;
+                margin-bottom: -2px;
+                img {
+                width: 74px;
+                }
+            }
+        }
+    }
 }
 
-.container.header {
-  background: #f3f3f3;
+
+.header-menu {
+    background: #f7f7f7;
+    background-color: #f7f7f7;
+    padding-top: 14px;
+    padding-bottom: 12px !important;
+    margin: 0;
+    .columns {
+        padding-bottom: 0px;
+    }
+    p{
+        font-size: 0.875em;
+        margin-bottom: 0px;
+        color: #666666;
+    }
+    .clearance {
+        margin-right: -27px;
+    }
+    .clothing {
+        margin-left: -27px;
+    }
 }
 
-.body-drip {
-  border-top: 8px solid #663399;
+
+.stock-up {
+    // margin-top: -10px;
+    background: #e23c86;
+    background-color: #e23c86;
+    padding-bottom: 9px !important;
+    .columns {
+        padding-top: 22px;
+        padding-bottom: 0px !important;
+        h4 {
+            color: white;
+            font-size: 1.125em;
+        }
+    }
 }
 
-// Full Width Headers
-.header {
-  background: #8a8a8a;
+
+.school {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    .columns {
+        padding-bottom: 0px;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        .model {
+            height: 300px;
+            margin: 0 auto;
+        }
+        .button {
+            background: #e23c86;
+            background-color: #e23c86;
+            position: absolute;
+            margin-top: -59px;
+            margin-left: 40px;
+            color: white;
+            font-size: 1.000em;
+            padding: 10px 38px;
+            font-weight: 700;
+            border-radius: 3px;
+        }
+        .shirt {
+            background: #f0fafc;
+            background-color: #f0fafc;
+            img {
+                height: 114px;
+                margin: 0 auto;
+            }
+            p {
+                font-size: 0.875em;
+                // margin-bottom: 16px;
+                span {
+                    color: #cc0000;
+                }
+            }
+        }
+        .legging {
+            img {
+                height: 114px;
+                margin: 0 auto;
+            }
+            p {
+                font-size: 0.875em;
+                // margin-bottom: 16px;
+                span {
+                    color: #cc0000;
+                }
+            }
+        }
+        .book {
+            img {
+                height: 114px;
+                margin: 0 auto;
+            }
+            p {
+                font-size: 0.75em;
+                // margin-bottom: 16px;
+            }
+        }
+        .bag {
+            background: #f0fafc;
+            background-color: #f0fafc;
+            img {
+                height: 114px;
+                margin: 0 auto;
+            }
+            p {
+                font-size: 0.75em;
+                // margin-bottom: 16px;
+            }
+        }
+    }
 }
 
-.header .columns {
-  padding-bottom: 0;
+
+.thirty-percent {
+    background: #c12463;
+    background-color: #c12463;
+    padding: 0px !important;
+    .columns {
+        padding-bottom: 0px;
+        h4 {
+            padding-top: 14px;
+            margin-bottom: 12px;
+            color: white;
+            font-size: 1.125em;
+            span {
+                font-weight: 700;
+            }
+        }
+    }
 }
 
-.header p {
-  color: #fff;
-  padding-top: 15px;
+
+.rugs {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    .columns {
+        padding-bottom: 0px;
+        .living-room {
+            height: 300px;
+            margin: 0 auto;
+        }
+        .button {
+            background: #c12463;
+            background-color: #c12463;
+            position: absolute;
+            margin-top: -59px;
+            margin-left: 40px;
+            color: white;
+            font-size: 1.000em;
+            padding: 10px 63px;
+            font-weight: 700;
+            border-radius: 3px;
+        }
+        .short-carpet {
+            background: #f7f7f7;
+            background-color: #f7f7f7;
+            img {
+                height: 114px;
+                margin: 0 auto;
+            }
+            p {
+                font-size: 0.75em;
+                margin-bottom: 14px;
+            }
+        }
+        .rug-sale {
+            h3 {
+                padding-top: 35px;
+                padding-bottom: 35px;
+                margin-bottom: 0px;
+                background: #d14576;
+                background-color: #d14576;
+                color: white;
+                font-weight: 700;
+            }
+        }
+        .long-carpet {
+            background: #f1f1f1;
+            background-color: #f1f1f1;
+            img {
+                height: 264px;
+                margin: 0 auto;
+            }
+            p {
+                font-size: 0.75em;
+                margin-top: 11px;
+                // padding-bottom: 36px;
+                // margin-bottom: 20px;
+            }
+        }
+    }
 }
 
-.header .wrapper-inner {
-  padding: 20px;
+
+.save-up {
+    background: #79093b;
+    background-color: #79093b;
+    padding: 0px !important;
+    .columns {
+        padding-bottom: 0px;
+        h4 {
+            padding-top: 20px;
+            margin-bottom: 20px;
+            color: white;
+            font-size: 1.125em;
+            span {
+                font-weight: 700;
+            }
+        }
+    }
 }
 
-.header .container {
-  background: transparent;
+
+.home-room {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    .columns {
+        padding-bottom: 0px;
+        .bed-room {
+            height: 300px;
+            margin: 0 auto;
+        }
+        .button {
+            background: #79093b;
+            background-color: #79093b;
+            position: absolute;
+            margin-top: -59px;
+            margin-left: 40px;
+            color: white;
+            font-size: 1.000em;
+            padding: 10px 63px;
+            font-weight: 700;
+            border-radius: 3px;
+        }
+        .soap {
+            background: #f7f7f7;
+            background-color: #f7f7f7;
+            img {
+                height: 114px;
+                margin: 0 auto;
+            }
+            p {
+                font-size: 0.75em;
+                margin-top: 11px;
+                // margin-bottom: 16px;
+            }
+        }
+        .pillow {
+            img {
+                height: 114px;
+                margin: 0 auto;
+            }
+            p {
+                font-size: 0.75em;
+                margin-top: 11px;
+                // margin-bottom: 16px;
+            }
+        }
+        .bed {
+            img {
+                height: 114px;
+                margin: 0 auto;
+            }
+            p {
+                font-size: 0.75em;
+                margin-top: 11px;
+                // margin-bottom: 16px;
+            }
+        }
+        .painting {
+            background: #f7f7f7;
+            background-color: #f7f7f7;
+            img {
+                height: 114px;
+                margin: 0 auto;
+            }
+            p {
+                font-size: 0.75em;
+                margin-top: 11px;
+                // margin-bottom: 16px;
+            }
+        }
+    }
 }
 
-// Social Media
-table.button.facebook table td {
-  background: #3B5998 !important;
-  border-color: #3B5998;
+
+.clean-up {
+    background: #5b999f;
+    background-color: #5b999f;
+    padding: 0px !important;
+    .columns {
+        padding-bottom: 0px;
+        h4 {
+            padding-top: 14px;
+            margin-bottom: 12px;
+            color: white;
+            font-size: 1.125em;
+            span {
+                font-weight: 700;
+            }
+        }
+    }
 }
 
-table.button.twitter table td {
-  background: #1daced !important;
-  border-color: #1daced;
+
+.storage {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    .columns {
+        padding-bottom: 0px;
+        .basket {
+            height: 300px;
+            margin: 0 auto;
+        }
+        .basket-button {
+            background: #5b999f;
+            background-color: #5b999f;
+            position: absolute;
+            margin-top: -59px;
+            margin-left: 40px;
+            color: white;
+            font-size: 1.000em;
+            padding: 10px 42px;
+            font-weight: 700;
+            border-radius: 3px;
+        }
+        .vacuum {
+            height: 300px;
+            margin: 0 auto;
+        }
+        .vacuum-button {
+            background: #5b999f;
+            background-color: #5b999f;
+            position: absolute;
+            margin-top: -59px;
+            margin-left: 40px;
+            color: white;
+            font-size: 1.000em;
+            padding: 10px 52px;
+            font-weight: 700;
+            border-radius: 3px;
+        }
+    }
 }
 
-table.button.google table td {
-  background: #DB4A39 !important;
-  border-color: #DB4A39;
+
+.apple-shopping {
+    background: #666666;
+    background-color: #666666;
+    padding: 0px !important;
+    .columns {
+        padding-bottom: 0px;
+        h4 {
+            padding-top: 14px;
+            margin-bottom: 12px;
+            color: white;
+            font-size: 1.125em;
+            span {
+                font-weight: 700;
+            }
+        }
+    }
 }
 
-.wrapper.secondary {
-  background: #f3f3f3;
+
+.apple-products {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    .columns {
+        padding-bottom: 0px;
+        .apple-mix {
+            height: 300px;
+            margin: 0 auto;
+        }
+        .button {
+            background: #666666;
+            background-color: #666666;
+            position: absolute;
+            margin-top: -59px;
+            margin-left: 40px;
+            color: white;
+            font-size: 1.000em;
+            padding: 10px 66px;
+            font-weight: 700;
+            border-radius: 3px;
+        }
+        .apple-quad {
+            height: 300px;
+            margin: 0 auto;
+        }
+    }
+}
+
+
+.thirtyfour-dollars {
+    background: #333333;
+    background-color: #333333;
+    padding: 0px !important;
+    .columns {
+        padding-bottom: 0px;
+        h4 {
+            padding-top: 14px;
+            margin-bottom: 12px;
+            color: white;
+            font-size: 1.125em;
+            span {
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+
+.kitchen {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    .columns {
+        padding-bottom: 0px;
+        .appliances {
+            height: 300px;
+            margin: 0 auto;
+        }
+        .button {
+            background: #333333;
+            background-color: #333333;
+            position: absolute;
+            margin-top: -59px;
+            margin-left: 40px;
+            color: white;
+            font-size: 1.000em;
+            padding: 10px 35px;
+            font-weight: 700;
+            border-radius: 3px;
+        }
+        .microwave {
+            background: #f7f7f7;
+            background-color: #f7f7f7;
+            img {
+                height: 114px;
+                margin: 0 auto;
+            }
+            p {
+                font-size: 0.75em;
+                margin-top: 11px;
+                // margin-bottom: 16px;
+            }
+        }
+        .coffee {
+            background: #eeeeee;
+            background-color: #eeeeee;
+            img {
+                height: 114px;
+                margin: 0 auto;
+            }
+            p {
+                font-size: 0.75em;
+                margin-top: 11px;
+                // margin-bottom: 16px;
+            }
+        }
+        .fridge {
+            img {
+                height: 114px;
+                margin: 0 auto;
+            }
+            p {
+                font-size: 0.75em;
+                margin-top: 11px;
+                // margin-bottom: 16px;
+            }
+        }
+        .oven {
+            background: #f7f7f7;
+            background-color: #f7f7f7;
+            img {
+                height: 114px;
+                margin: 0 auto;
+            }
+            p {
+                font-size: 0.75em;
+                margin-top: 11px;
+                // margin-bottom: 16px;
+            }
+        }
+    }
+}
+
+
+.more-kitchen {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    .columns {
+        padding-bottom: 0px;
+    }
+    .red-coffee {
+        background: #ffffff;
+        background-color: #ffffff;
+        img {
+            height: 114px;
+            margin: 0 auto;
+        }
+        p {
+            font-size: 0.75em;
+            margin-top: 11px;
+            // margin-bottom: 16px;
+        }
+    }
+    .slvr-microwave {
+        background: #eeeeee;
+        background-color: #eeeeee;
+        img {
+            height: 114px;
+            margin: 0 auto;
+        }
+        p {
+            font-size: 0.75em;
+            margin-top: 11px;
+            // margin-bottom: 16px;
+        }
+    }
+    .mini-fridge {
+        background: #f7f7f7;
+        background-color: #f7f7f7;
+        img {
+            height: 114px;
+            margin: 0 auto;
+        }
+        p {
+            font-size: 0.75em;
+            margin-top: 11px;
+            // margin-bottom: 16px;
+        }
+    }
+    .toaster {
+        background: #ffffff;
+        background-color: #ffffff;
+        img {
+            height: 114px;
+            margin: 0 auto;
+        }
+        p {
+            font-size: 0.75em;
+            margin-top: 11px;
+            // margin-bottom: 16px;
+        }
+    }
+}
+
+
+.footer-top {
+    background: #cc0000;
+    background-color: #cc0000;
+    padding: 0px !important;
+    .columns {
+        padding-bottom: 0px;
+        h4 {
+            padding-top: 8px;
+            padding-left: 80px;
+            margin-bottom: -2px;
+            color: white;
+            font-size: 1.000em;
+            display: inline-block;
+            span {
+                font-weight: 700;
+            }
+            
+        }
+        .button {
+            display: inline-block;
+            color: white;
+            font-size: 1.000em;
+            padding: 5px 12px 4px;
+            margin-bottom: 10px;
+            font-weight: 700;
+            border-radius: 5px;
+            border: 2px solid white;
+        }
+    }
+}
+
+
+.mobile-footer-top {
+    background: #cc0000;
+    background-color: #cc0000;
+    padding: 0px !important;
+    .columns {
+        padding-bottom: 0px;
+        h4 {
+            padding-top: 8px;
+            margin-bottom: -2px;
+            color: white;
+            font-size: 1.000em;
+            display: inline-block;
+            span {
+                font-weight: 700;
+            }
+            
+        }
+        .button {
+            display: inline-block;
+            color: white;
+            font-size: 1.000em;
+            padding: 5px 12px 4px;
+            margin-bottom: 10px;
+            font-weight: 700;
+            border-radius: 5px;
+            border: 2px solid white;
+        }
+    }
+}
+
+
+.footer-options {
+    background: #f7f7f7;
+    background-color: #f7f7f7;
+    padding-top: 14px;
+    padding-bottom: 12px !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin: 0;
+    .columns {
+        padding-bottom: 0px;
+    }
+    p{
+        font-size: 0.875em;
+        margin-bottom: 0px;
+        color: #666666;
+        // color: #666666;
+    }
+    .find-store {
+        width: 74px;
+        margin: 0 auto;
+    }
+}
+
+
+.footer-fineprint {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    .columns {
+        h6 {
+            padding-top: 32px;
+            color: #666666;
+            font-size: 1.000em;
+        }
+        p {
+            color: #666666;
+            font-size: 0.6875em;
+            padding-top: 5px;
+            a {
+                color: #0069ff;
+            }
+        }
+    }
+}
+
+
+.preference {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    .columns {
+        .my-pref {
+            color: #666666;
+            font-size: 1.000em;
+            margin-top: -17px;
+            margin-bottom: -2px;
+        }
+    }
+    .unsub-block {
+        h6 {
+            color: #666666;
+            font-size: 1.000em;
+            color: #0069ff;
+            margin-bottom: 2px;
+        }
+        p {
+            color: #666666;
+            font-size: 0.6875em;
+            padding-right: 10px;
+            padding-right: 14px;
+            // padding-top: 5px;
+        }
+    }
+    .sub-block {
+        h6 {
+            color: #666666;
+            font-size: 1.000em;
+            color: #0069ff;
+            margin-bottom: 2px;
+            margin-left: 25px;
+        }
+        p {
+            color: #666666;
+            font-size: 0.6875em;
+            margin-left: 25px;
+            padding-right: 14px;
+            // padding-top: 5px;
+        }
+    }
+}
+
+
+.contact {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    h6 {
+        color: #666666;
+        font-size: 1.000em;
+        margin-top: -17px;
+        margin-bottom: -2px;
+    }
+    p {
+        color: #666666;
+        font-size: 0.6875em;
+        padding-bottom: 50px;
+        a {
+            color: #0069ff;
+        }
+        span {
+            color: black;
+        }
+    }
 }
