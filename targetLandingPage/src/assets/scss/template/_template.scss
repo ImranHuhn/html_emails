@@ -587,15 +587,14 @@ table.body .columns, table.body .column {
         padding-bottom: 0px;
         h4 {
             padding-top: 8px;
-            padding-left: 80px;
+            // padding-left: 80px;
             margin-bottom: -2px;
             color: white;
             font-size: 1.000em;
-            display: inline-block;
+            // display: inline-block;
             span {
                 font-weight: 700;
             }
-            
         }
         .button {
             display: inline-block;
@@ -606,37 +605,7 @@ table.body .columns, table.body .column {
             font-weight: 700;
             border-radius: 5px;
             border: 2px solid white;
-        }
-    }
-}
-
-
-.mobile-footer-top {
-    background: #cc0000;
-    background-color: #cc0000;
-    padding: 0px !important;
-    .columns {
-        padding-bottom: 0px;
-        h4 {
-            padding-top: 8px;
-            margin-bottom: -2px;
-            color: white;
-            font-size: 1.000em;
-            display: inline-block;
-            span {
-                font-weight: 700;
-            }
-            
-        }
-        .button {
-            display: inline-block;
-            color: white;
-            font-size: 1.000em;
-            padding: 5px 12px 4px;
-            margin-bottom: 10px;
-            font-weight: 700;
-            border-radius: 5px;
-            border: 2px solid white;
+            margin: 0 auto;
         }
     }
 }
